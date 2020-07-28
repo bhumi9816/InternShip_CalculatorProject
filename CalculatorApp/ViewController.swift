@@ -152,7 +152,7 @@ class ViewController: UIViewController {
                     r_number = "100"
                     
                     final_result = "\(Double(l_number)! / Double(r_number)!)"
-                    print("Final result is")
+                    
                     
                 }
                 
