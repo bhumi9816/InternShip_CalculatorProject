@@ -15,6 +15,7 @@
 		D4EDA8A724988410008BBA93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EDA8A524988410008BBA93 /* LaunchScreen.storyboard */; };
 		D4EDA8B224988410008BBA93 /* CalculatorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EDA8B124988410008BBA93 /* CalculatorAppTests.swift */; };
 		D4EDA8BD24988410008BBA93 /* CalculatorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EDA8BC24988410008BBA93 /* CalculatorAppUITests.swift */; };
+		D4EDA8CB2498851C008BBA93 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EDA8CA2498851C008BBA93 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D4EDA8B824988410008BBA93 /* CalculatorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EDA8BC24988410008BBA93 /* CalculatorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorAppUITests.swift; sourceTree = "<group>"; };
 		D4EDA8BE24988410008BBA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4EDA8CA2498851C008BBA93 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D4EDA8A324988410008BBA93 /* Assets.xcassets */,
 				D4EDA8A524988410008BBA93 /* LaunchScreen.storyboard */,
 				D4EDA8A824988410008BBA93 /* Info.plist */,
+				D4EDA8CA2498851C008BBA93 /* RoundButton.swift */,
 			);
 			path = CalculatorApp;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4EDA8CB2498851C008BBA93 /* RoundButton.swift in Sources */,
 				D4EDA89F2498840E008BBA93 /* ViewController.swift in Sources */,
 				D4EDA89B2498840E008BBA93 /* AppDelegate.swift in Sources */,
 				D4EDA89D2498840E008BBA93 /* SceneDelegate.swift in Sources */,
